@@ -1,0 +1,32 @@
+.center-container {
+    margin: 0 auto; /* Center horizontally */
+    margin-top: -40px;
+    width: 30%; /* Set the width of the table */
+    height: 520px; /* Set the height of the table */
+    overflow-y: auto; /* Add vertical scroll if content overflows */
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange content in a column */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .center-container th,
+  .center-container td {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .graph-info {
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .center-container {
+      width: 80%; /* Adjust width for smaller screens */
+    }
+  }
